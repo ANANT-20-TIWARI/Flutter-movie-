@@ -1,0 +1,28 @@
+name: flutter_movie_app
+description: A new Flutter application.
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  url_launcher: ^3.0.0
+  rxdart:
+  flutter_simple_dependency_injection:
+
+  core:
+    path: ../core
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+    uses-material-design: true
+    fonts:
+       - family: Merriweather
+         fonts:
+           - asset: fonts/Merriweather-Regular.ttf
+           - asset: fonts/Merriweather-Bold.ttf
+           - asset: fonts/Merriweather-Italic.ttf
+             style : italic
